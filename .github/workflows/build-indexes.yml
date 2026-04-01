@@ -1,0 +1,40 @@
+name: Build Article Indexes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "articles/**/*.md"
+      - "scripts/build_indexes.py"
+      - ".github/workflows/build-indexes.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate indexes
+        run: python scripts/build_indexes.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts.json categories.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto-generate article indexes"
+          git push
