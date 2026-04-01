@@ -1,5 +1,53 @@
 [
   {
+    "slug": "pyarmor-加密",
+    "title": "打包HEAD置信的commit",
+    "date": "2026-04-02",
+    "excerpt": "**git提取需要加密的代码**",
+    "tags": [],
+    "markdown": "articles/test/Pyarmor 加密.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "go_note",
+    "title": "GoLang",
+    "date": "2026-04-02",
+    "excerpt": "入门和理解",
+    "tags": [],
+    "markdown": "articles/test/go_note.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "forgejo代码管理平台的搭建",
+    "title": "Forgejo代码管理平台的搭建",
+    "date": "2026-04-02",
+    "excerpt": "需要在本地或者局域网内搭建一个轻量的代码托管平台。",
+    "tags": [],
+    "markdown": "articles/test/forgejo代码管理平台的搭建.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "c-图像融合",
+    "title": "C++图像融合",
+    "date": "2026-04-02",
+    "excerpt": "c++融合",
+    "tags": [],
+    "markdown": "articles/test/c++图像融合.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
     "slug": "yolo-training-debug-checklist",
     "title": "YOLO 项目训练排错清单",
     "date": "2026-04-01",

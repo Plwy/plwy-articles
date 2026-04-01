@@ -76,5 +76,11 @@
     "name": "日常",
     "description": "生活与感想的长期记录。",
     "icon": "☁"
+  },
+  {
+    "slug": "test",
+    "name": "test",
+    "description": "test 分类下的文章。",
+    "icon": "·"
   }
 ]
