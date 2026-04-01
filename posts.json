@@ -12,6 +12,18 @@
     }
   },
   {
+    "slug": "llm_note",
+    "title": "Load model directly",
+    "date": "2026-04-02",
+    "excerpt": "[TOC]",
+    "tags": [],
+    "markdown": "articles/test/LLM_note.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
     "slug": "go_note",
     "title": "GoLang",
     "date": "2026-04-02",
@@ -30,6 +42,30 @@
     "excerpt": "需要在本地或者局域网内搭建一个轻量的代码托管平台。",
     "tags": [],
     "markdown": "articles/test/forgejo代码管理平台的搭建.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "docker_use",
+    "title": "一文让你把 Docker 用起来",
+    "date": "2026-04-02",
+    "excerpt": "原始内容链接:",
+    "tags": [],
+    "markdown": "articles/test/docker_use.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "docker_note",
+    "title": "Docker",
+    "date": "2026-04-02",
+    "excerpt": "包含命令及对应参数解释，以及使用过的实际命令例子。",
+    "tags": [],
+    "markdown": "articles/test/docker_note.md",
     "category": {
       "slug": "test",
       "name": "test"
