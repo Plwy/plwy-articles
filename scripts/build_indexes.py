@@ -34,11 +34,20 @@ def normalize_text(text: str) -> str:
 
 
 def title_from_markdown(path: Path, text: str) -> str:
+    in_code = False
     for line in text.splitlines():
         stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code:
+            continue
+        if not stripped or stripped == "[TOC]":
+            continue
         if stripped.startswith("# "):
             return stripped[2:].strip()
-    return path.stem.replace("-", " ").replace("_", " ").strip().title()
+        break
+    return re.sub(r"[-_]+", " ", path.stem).strip()
 
 
 def excerpt_from_markdown(title: str, text: str) -> str:
@@ -51,6 +60,8 @@ def excerpt_from_markdown(title: str, text: str) -> str:
                 break
             continue
         if line.startswith("#"):
+            continue
+        if line == "[TOC]":
             continue
         if line in {"---", "***", "___"}:
             continue
