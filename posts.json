@@ -1,6 +1,870 @@
 [
   {
+    "slug": "音频相关",
+    "title": "音频相关",
+    "date": "2026-04-16",
+    "excerpt": "音频文件有多种格式，不同的后缀代表了不同的编码方式、压缩算法和用途。以下是常见的音频文件后缀及其区别：",
+    "tags": [],
+    "markdown": "articles/algorithm/音频相关.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "配置环境变量",
+    "title": "配置环境变量的几种方式",
+    "date": "2026-04-16",
+    "excerpt": "| 用户 | 环境变量配置文件 | | ---------- | -------------------------------------------- | | 所有用户 | ●/etc/profile ●/etc/bashrc ●...",
+    "tags": [],
+    "markdown": "articles/dev-env/配置环境变量.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "车辆检测数据集",
+    "title": "车辆相关数据集",
+    "date": "2026-04-16",
+    "excerpt": "网站：https://wayback.archive-it.org/org-652/20231112205116/https:/detrac-db.rit.albany.edu/",
+    "tags": [],
+    "markdown": "articles/algorithm/车辆检测数据集.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "负载监控-负载均衡-服务发现",
+    "title": "负载监控 负载均衡 服务发现",
+    "date": "2026-04-16",
+    "excerpt": "我用一个\"外卖平台\"的类比，帮你理解这三个核心概念，然后给出技术实现。",
+    "tags": [],
+    "markdown": "articles/software-engineering/负载监控-负载均衡-服务发现.md",
+    "category": {
+      "slug": "software-engineering",
+      "name": "软件工程"
+    }
+  },
+  {
+    "slug": "语音相关项目",
+    "title": "语音相关项目",
+    "date": "2026-04-16",
+    "excerpt": "[PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) 涵盖语音识别（语音转文字）， 语音翻译（中英），文本转语音（中英），声音克隆，语音分类，标点符号恢复，生成虚拟人声等",
+    "tags": [],
+    "markdown": "articles/algorithm/语音相关项目.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "训练中随机种子的问题",
+    "title": "训练中随机种子的问题",
+    "date": "2026-04-16",
+    "excerpt": "以一个种子作为初始值，根据一定的算法得到随机数序列。",
+    "tags": [],
+    "markdown": "articles/algorithm/训练中随机种子的问题.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "视频流_图像相关基础",
+    "title": "Raw、YUV、RGB、JPG、PNG 关系",
+    "date": "2026-04-16",
+    "excerpt": "| 格式 | 数据内容 | 是否插值 | 数据量（示例2M像素） | 适用场景 | | ---- | --------------------- | -------- | --------------------------- | -...",
+    "tags": [],
+    "markdown": "articles/algorithm/视频流_图像相关基础.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "视频摘要dsnet_run_note",
+    "title": "视频摘要DSNet run note",
+    "date": "2026-04-16",
+    "excerpt": "**(IEEE2020)DSNet: A Flexible Detect-to-Summarize Network for Video Summarization**",
+    "tags": [],
+    "markdown": "articles/algorithm/视频摘要DSNet_run_note.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "视频摘要csta_run_note",
+    "title": "视频摘要CSTA run note",
+    "date": "2026-04-16",
+    "excerpt": "(**CVPR2024)CSTA: CNN-based Spatiotemporal Attention for Video Summarization**",
+    "tags": [],
+    "markdown": "articles/algorithm/视频摘要CSTA_run_note.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "获取设备ip地址",
+    "title": "获取设备IP地址",
+    "date": "2026-04-16",
+    "excerpt": "将设备使用网线和本地电脑直连",
+    "tags": [],
+    "markdown": "articles/dev-env/获取设备IP地址.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "英伟达驱动安装",
+    "title": "英伟达显卡驱动Nvidia driver的安装",
+    "date": "2026-04-16",
+    "excerpt": "n次安装。最后一次总结！",
+    "tags": [],
+    "markdown": "articles/dev-env/英伟达驱动安装.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "网络及web服务相关",
+    "title": "网络及web服务相关",
+    "date": "2026-04-16",
+    "excerpt": "http服务的特征",
+    "tags": [],
+    "markdown": "articles/software-engineering/网络及web服务相关.md",
+    "category": {
+      "slug": "software-engineering",
+      "name": "软件工程"
+    }
+  },
+  {
+    "slug": "编译问题和库问题",
+    "title": "编译问题和库问题",
+    "date": "2026-04-16",
+    "excerpt": "代码编译成可执行程序的过程，主要分为:预编译(Prepressing)->编译(Compilation)->汇编(Assembly)->链接(Linking)",
+    "tags": [],
+    "markdown": "articles/cpp/编译问题和库问题.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "模型推理cpu占用过高问题",
+    "title": "模型推理CPU占用过高问题",
+    "date": "2026-04-16",
+    "excerpt": "模型训练过程中CPU占用高是由于计算密度过大、数据加载缓慢、通信开销大等因素",
+    "tags": [],
+    "markdown": "articles/deploy/模型推理CPU占用过高问题.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "查看电脑配置详情命令",
+    "title": "查看电脑配置详情命令",
+    "date": "2026-04-16",
+    "excerpt": "查看当前操作系统",
+    "tags": [],
+    "markdown": "articles/dev-env/查看电脑配置详情命令.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "教育大模型调研",
+    "title": "教育大模型调研",
+    "date": "2026-04-16",
+    "excerpt": "[国家智慧教育公共服务平台](https://www.smartedu.cn/)",
+    "tags": [],
+    "markdown": "articles/llm/教育大模型调研.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "操作系统相关",
+    "title": "操作系统相关",
+    "date": "2026-04-16",
+    "excerpt": "操作系统相关知识回顾",
+    "tags": [],
+    "markdown": "articles/software-engineering/操作系统相关.md",
+    "category": {
+      "slug": "software-engineering",
+      "name": "软件工程"
+    }
+  },
+  {
+    "slug": "投资概念",
+    "title": "投资概念",
+    "date": "2026-04-16",
+    "excerpt": "投资相关问题",
+    "tags": [],
+    "markdown": "articles/invest/投资概念.md",
+    "category": {
+      "slug": "invest",
+      "name": "投资"
+    }
+  },
+  {
+    "slug": "异步编程",
+    "title": "异步编程",
+    "date": "2026-04-16",
+    "excerpt": "**什么是异步编程**",
+    "tags": [],
+    "markdown": "articles/software-engineering/异步编程.md",
+    "category": {
+      "slug": "software-engineering",
+      "name": "软件工程"
+    }
+  },
+  {
+    "slug": "常用镜像和命令",
+    "title": "常用镜像和命令",
+    "date": "2026-04-16",
+    "excerpt": "github 国内镜像： hub.yzuu.cf/ hub.nuaa.cf/ hub.fgit.ml/ help.kgithub.com github.com.cnpmjs.org/",
+    "tags": [],
+    "markdown": "articles/dev-env/常用镜像和命令.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "大模型评价数据集",
+    "title": "大模型相关基准",
+    "date": "2026-04-16",
+    "excerpt": "以[Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)模型的为例",
+    "tags": [],
+    "markdown": "articles/llm/大模型评价数据集.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "关于程序运行的理解",
+    "title": "关于程序运行的理解",
+    "date": "2026-04-16",
+    "excerpt": "​ 汇编指令是机器码的人类助记符，可以人自己直接编写，gcc编译器在编译时中间也会生成汇编指令`.s`文件。汇编指令通过汇编器将其转化为机器指令。",
+    "tags": [],
+    "markdown": "articles/cpp/关于程序运行的理解.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "公开数据集获取",
+    "title": "公开数据集获取",
+    "date": "2026-04-16",
+    "excerpt": "公开数据集获取",
+    "tags": [],
+    "markdown": "articles/algorithm/公开数据集获取.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "yolov8相关",
+    "title": "yolov8相关",
+    "date": "2026-04-16",
+    "excerpt": "Ultralytics YOLO 官方文档[这里](https://docs.ultralytics.com/tasks/detect/#models) 包含了多种任务的包括python和CLI的使用。",
+    "tags": [],
+    "markdown": "articles/algorithm/yolov8相关.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "x-anylabeling使用",
+    "title": "X anylabeling使用",
+    "date": "2026-04-16",
+    "excerpt": "conda activate xlabel cd X-AnyLabeling python anylabeling/app.py",
+    "tags": [],
+    "markdown": "articles/tools/X-anylabeling使用.md",
+    "category": {
+      "slug": "tools",
+      "name": "其他工具"
+    }
+  },
+  {
+    "slug": "vscode调试配置",
+    "title": "Debug配置",
+    "date": "2026-04-16",
+    "excerpt": "主要是在.vscode下配置两个文件，launch.json和task.json",
+    "tags": [],
+    "markdown": "articles/cpp/VScode调试配置.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "valgrind使用及调试信息分析",
+    "title": "valgrind的安装及调试使用",
+    "date": "2026-04-16",
+    "excerpt": "sudo apt install valgrind",
+    "tags": [],
+    "markdown": "articles/cpp/valgrind使用及调试信息分析.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "umbundu4-04安装向日葵问题",
+    "title": "umbundu4.04安装向日葵问题",
+    "date": "2026-04-16",
+    "excerpt": "**下载安装**",
+    "tags": [],
+    "markdown": "articles/dev-env/umbundu4.04安装向日葵问题.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "ubuntu上更新python",
+    "title": "ubuntu上更新python",
+    "date": "2026-04-16",
+    "excerpt": "本地电脑存在多个python版本。需要python3.10以上版本。对python进行更新。",
+    "tags": [],
+    "markdown": "articles/dev-env/ubuntu上更新python.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "ubuntu24-04装机note_20250618",
+    "title": "ubuntu24.04装机note 20250618",
+    "date": "2026-04-16",
+    "excerpt": "list:",
+    "tags": [],
+    "markdown": "articles/dev-env/ubuntu24.04装机note_20250618.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "tools-forgejo代码管理平台的搭建",
+    "title": "forgejo代码管理平台的搭建",
+    "date": "2026-04-16",
+    "excerpt": "需要在本地或者局域网内搭建一个轻量的代码托管平台。",
+    "tags": [],
+    "markdown": "articles/tools/forgejo代码管理平台的搭建.md",
+    "category": {
+      "slug": "tools",
+      "name": "其他工具"
+    }
+  },
+  {
+    "slug": "tensorrt性能优化",
+    "title": "Tensorrt 性能优化",
+    "date": "2026-04-16",
+    "excerpt": "TensorRT是nvidia的推理加速库，只能在nvdia的gpu上用！Intel cpu请使用openvino，amd gpu请使用opencl和ROCm。",
+    "tags": [],
+    "markdown": "articles/deploy/tensorrt性能优化.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "tensorrt安装",
+    "title": "tensorrt安装",
+    "date": "2026-04-16",
+    "excerpt": "tensorrt 安装",
+    "tags": [],
+    "markdown": "articles/deploy/tensorrt安装.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "squid代理上网",
+    "title": "squid代理上网",
+    "date": "2026-04-16",
+    "excerpt": "[squid官网链接](https://www.squid-cache.org/)",
+    "tags": [],
+    "markdown": "articles/tools/squid代理上网.md",
+    "category": {
+      "slug": "tools",
+      "name": "其他工具"
+    }
+  },
+  {
+    "slug": "segmentation-fault",
+    "title": "Segmentation fault (core dumped)",
+    "date": "2026-04-16",
+    "excerpt": "“segmentation fault”错误通常是由于以下几种情况导致的：",
+    "tags": [],
+    "markdown": "articles/cpp/Segmentation fault.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "rtsp和rtmp流媒体服务器搭建和视频推流",
+    "title": "rtsp和rtmp流媒体服务器搭建和视频推流",
+    "date": "2026-04-16",
+    "excerpt": "流协议就是在两个通信系统之间传输多媒体文件的一套规则，它定义了视频文件将如何分解为小数据包以及它们在互联网上传输的顺序，RTMP 与 RTSP 是比较常见的流媒体协议。",
+    "tags": [],
+    "markdown": "articles/tools/rtsp和rtmp流媒体服务器搭建和视频推流.md",
+    "category": {
+      "slug": "tools",
+      "name": "其他工具"
+    }
+  },
+  {
+    "slug": "rk上python环境安装",
+    "title": "rk上python环境安装",
+    "date": "2026-04-16",
+    "excerpt": "rk 4卡板环境安装",
+    "tags": [],
+    "markdown": "articles/dev-env/rk上python环境安装.md",
+    "category": {
+      "slug": "dev-env",
+      "name": "开发环境"
+    }
+  },
+  {
+    "slug": "restfulapi是什么",
+    "title": "RestfulAPI是什么",
+    "date": "2026-04-16",
+    "excerpt": "RESTful API 设计是一种基于 **REST（Representational State Transfer，表述性状态转移）** 架构风格来构建 Web API 的方法。它的核心思想是把服务器上的资源（如用户、订单、文章等）...",
+    "tags": [],
+    "markdown": "articles/software-engineering/RestfulAPI是什么.md",
+    "category": {
+      "slug": "software-engineering",
+      "name": "软件工程"
+    }
+  },
+  {
+    "slug": "real-esrgan运行",
+    "title": "real esrgan运行",
+    "date": "2026-04-16",
+    "excerpt": "**real-esrgan运行环境问题：**",
+    "tags": [],
+    "markdown": "articles/algorithm/real-esrgan运行.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "r1-omni_note",
+    "title": "R1 Omni note",
+    "date": "2026-04-16",
+    "excerpt": "code:https://github.com/HumanMLLM/R1-Omni",
+    "tags": [],
+    "markdown": "articles/llm/R1-Omni_note.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "python的包安装相关问题",
+    "title": "Python的包安装相关问题",
+    "date": "2026-04-16",
+    "excerpt": "| 目的 | 典型命令 | 备注 | | ---------------------- | ------------------ | --------------------------------------------------...",
+    "tags": [],
+    "markdown": "articles/python/Python的包安装相关问题.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python的gil和多线程问题",
+    "title": "python的GIL和多线程问题",
+    "date": "2026-04-16",
+    "excerpt": "**GIL是什么？**",
+    "tags": [],
+    "markdown": "articles/python/python的GIL和多线程问题.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python模块的延迟加载",
+    "title": "python模块的延迟加载",
+    "date": "2026-04-16",
+    "excerpt": "import torch from myproject.models import some_model from myproject.models.some_model import SomeClass",
+    "tags": [],
+    "markdown": "articles/python/python模块的延迟加载.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python服务相关",
+    "title": "python 服务相关",
+    "date": "2026-04-16",
+    "excerpt": "什么是WSGI，ASGI",
+    "tags": [],
+    "markdown": "articles/python/python服务相关.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python服务懒加载模型复用",
+    "title": "python服务懒加载模型复用",
+    "date": "2026-04-16",
+    "excerpt": "关于服务中进行**懒加载实现高效服用**， 在第一次请求加载模型，后面的请求复用加载的模型。不用的服务启动时显示进行模型初始化。",
+    "tags": [],
+    "markdown": "articles/python/python服务懒加载模型复用.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python日志问题",
+    "title": "python日志问题",
+    "date": "2026-04-16",
+    "excerpt": "来自：`modelscope/utils/logger.py`",
+    "tags": [],
+    "markdown": "articles/python/python日志问题.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python文件处理库_os_pathlib_glob_shutil",
+    "title": "python文件处理库 os pathlib glob shutil",
+    "date": "2026-04-16",
+    "excerpt": "对常用的文件处理时用到的库和方法进行总结。",
+    "tags": [],
+    "markdown": "articles/python/python文件处理库_os_pathlib_glob_shutil.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "python多卡并行和dataparallel",
+    "title": "python多卡并行和DataParallel",
+    "date": "2026-04-16",
+    "excerpt": "多GPU可以使用 `nn.DataParallel` 打包模型，再使用`model.to(device)` 把模型传送到多块GPU中进行运算。",
+    "tags": [],
+    "markdown": "articles/python/python多卡并行和DataParallel.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "pytest单元测试",
+    "title": "pytest单元测试",
+    "date": "2026-04-16",
+    "excerpt": "pip install pytest",
+    "tags": [],
+    "markdown": "articles/python/pytest单元测试.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
     "slug": "pyarmor-加密",
+    "title": "Pyarmor 加密",
+    "date": "2026-04-16",
+    "excerpt": "**git提取需要加密的代码**",
+    "tags": [],
+    "markdown": "articles/python/Pyarmor 加密.md",
+    "category": {
+      "slug": "python",
+      "name": "Python"
+    }
+  },
+  {
+    "slug": "opencv问题总结",
+    "title": "opencv问题总结",
+    "date": "2026-04-16",
+    "excerpt": "1.只是使用简单的函数，测一下opencv的使用。",
+    "tags": [],
+    "markdown": "articles/algorithm/opencv问题总结.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "nohup命令",
+    "title": "nohup命令",
+    "date": "2026-04-16",
+    "excerpt": "ref:https://blog.csdn.net/weixin_49114503/article/details/134266408",
+    "tags": [],
+    "markdown": "articles/deploy/nohup命令.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "mmrotate_run_note",
+    "title": "mmrotate 使用记录",
+    "date": "2026-04-16",
+    "excerpt": "2024.10.08",
+    "tags": [],
+    "markdown": "articles/algorithm/mmrotate_run_note.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "llm_note",
+    "title": "LLM note",
+    "date": "2026-04-16",
+    "excerpt": "有哪些常见的大模型？这些大模型的推出时间线，公司背景，特点（架构，参数）。大模型工作原理，能力范围。如何训练。如何搭建自己的chat服务。",
+    "tags": [],
+    "markdown": "articles/llm/LLM_note.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "jni接口资源释放问题",
+    "title": "jni接口资源释放问题",
+    "date": "2026-04-16",
+    "excerpt": "**调用jni接口的release后，java程序仍占用了显存的问题。**",
+    "tags": [],
+    "markdown": "articles/deploy/jni接口资源释放问题.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "ios相关",
+    "title": "IOS开发环境",
+    "date": "2026-04-16",
+    "excerpt": "**Xcode 版本， macOS版本， 支持的Swift版本， 以及支持的macOS，IOS, watchOS, tvOS, visionOS的版本对应关系：**",
+    "tags": [],
+    "markdown": "articles/cpp/IOS相关.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "gradio使用",
+    "title": "gradio使用",
+    "date": "2026-04-16",
+    "excerpt": "一个展示demo包含，音视频文本输入，和按钮。",
+    "tags": [],
+    "markdown": "articles/deploy/gradio使用.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "go_note",
+    "title": "GoLang",
+    "date": "2026-04-16",
+    "excerpt": "入门和理解",
+    "tags": [],
+    "markdown": "articles/cpp/go_note.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "gdb调试",
+    "title": "gdb调试",
+    "date": "2026-04-16",
+    "excerpt": "进入GDB调试模式",
+    "tags": [],
+    "markdown": "articles/cpp/gdb调试.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "flask服务封装",
+    "title": "flask服务封装",
+    "date": "2026-04-16",
+    "excerpt": "一个简单的flask服务过程的理解",
+    "tags": [],
+    "markdown": "articles/deploy/flask服务封装.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "fastapi中的lifespan",
+    "title": "fastapi中的lifespan",
+    "date": "2026-04-16",
+    "excerpt": "> 注意： > > `lifespan` 中的 `yield` **不是为了“保持模型存活”** 。`yield` 是为了让 FastAPI 知道：“启动任务完成了，现在可以开始处理请求了”。",
+    "tags": [],
+    "markdown": "articles/deploy/fastapi中的lifespan.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "docker镜像选择",
+    "title": "docker镜像选择",
+    "date": "2026-04-16",
+    "excerpt": "ref:https://blog.csdn.net/KazooTTT/article/details/134968671",
+    "tags": [],
+    "markdown": "articles/deploy/docker镜像选择.md",
+    "category": {
+      "slug": "deploy",
+      "name": "模型部署"
+    }
+  },
+  {
+    "slug": "deepseek-r1相关",
+    "title": "DeepSeek R1相关",
+    "date": "2026-04-16",
+    "excerpt": "**训练资源消耗** DeepSeek-V3 使用 H800 GPU 集群进行训练，总耗时约 2788K GPU 小时，整个训练过程的成本不超过 600 万美元。为了进一步降低成本，DeepSeek 利用了稀疏计算设计、改进的注意力机...",
+    "tags": [],
+    "markdown": "articles/llm/DeepSeek-R1相关.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "cpp_issue",
+    "title": "cpp issue",
+    "date": "2026-04-16",
+    "excerpt": "仅仅有简单c++基础的，想看懂稍复杂c++项目有几个点理解了很关键。",
+    "tags": [],
+    "markdown": "articles/cpp/cpp_issue.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "cmos图像传感器和信号转换",
+    "title": "CMOS图像传感器和信号转换",
+    "date": "2026-04-16",
+    "excerpt": "**如何捕捉光信号，光信号如何转为电信号，电信号转模拟信号，转数字信号的过程**",
+    "tags": [],
+    "markdown": "articles/algorithm/CMOS图像传感器和信号转换.md",
+    "category": {
+      "slug": "algorithm",
+      "name": "算法"
+    }
+  },
+  {
+    "slug": "clip_note",
+    "title": "CLIP note",
+    "date": "2026-04-16",
+    "excerpt": "ref:https://zhuanlan.zhihu.com/p/661772113",
+    "tags": [],
+    "markdown": "articles/llm/CLIP_note.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "c-相关工具",
+    "title": "C++相关工具",
+    "date": "2026-04-16",
+    "excerpt": "本人当前使用的c++工具链",
+    "tags": [],
+    "markdown": "articles/cpp/C++相关工具.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "c-指针和内存相关",
+    "title": "c++指针和内存相关",
+    "date": "2026-04-16",
+    "excerpt": "指针和内存的问题",
+    "tags": [],
+    "markdown": "articles/cpp/c++指针和内存相关.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "c-图像融合",
+    "title": "c++图像融合",
+    "date": "2026-04-16",
+    "excerpt": "c++融合",
+    "tags": [],
+    "markdown": "articles/cpp/c++图像融合.md",
+    "category": {
+      "slug": "cpp",
+      "name": "C++"
+    }
+  },
+  {
+    "slug": "ai安全",
+    "title": "AI安全",
+    "date": "2026-04-16",
+    "excerpt": "对于AI系统的安全，我们主要讨论AI系统的机密性和完整性。",
+    "tags": [],
+    "markdown": "articles/paper/ai安全.md",
+    "category": {
+      "slug": "paper",
+      "name": "论文"
+    }
+  },
+  {
+    "slug": "agent需求",
+    "title": "agent需求",
+    "date": "2026-04-16",
+    "excerpt": "**项目代码结构解析**",
+    "tags": [],
+    "markdown": "articles/llm/agent需求.md",
+    "category": {
+      "slug": "llm",
+      "name": "大模型"
+    }
+  },
+  {
+    "slug": "3d打印机了解",
+    "title": "3D打印机了解",
+    "date": "2026-04-16",
+    "excerpt": "**了解3D打印**",
+    "tags": [],
+    "markdown": "articles/misc/3D打印机了解.md",
+    "category": {
+      "slug": "misc",
+      "name": "其他"
+    }
+  },
+  {
+    "slug": "test-pyarmor-加密",
     "title": "Pyarmor 加密",
     "date": "2026-04-02",
     "excerpt": "**git提取需要加密的代码**",
@@ -12,7 +876,7 @@
     }
   },
   {
-    "slug": "llm_note",
+    "slug": "test-llm_note",
     "title": "LLM note",
     "date": "2026-04-02",
     "excerpt": "有哪些常见的大模型？这些大模型的推出时间线，公司背景，特点（架构，参数）。大模型工作原理，能力范围。如何训练。如何搭建自己的chat服务。",
@@ -24,12 +888,24 @@
     }
   },
   {
-    "slug": "go_note",
+    "slug": "test-go_note",
     "title": "GoLang",
     "date": "2026-04-02",
     "excerpt": "入门和理解",
     "tags": [],
     "markdown": "articles/test/go_note.md",
+    "category": {
+      "slug": "test",
+      "name": "test"
+    }
+  },
+  {
+    "slug": "test-c-图像融合",
+    "title": "c++图像融合",
+    "date": "2026-04-02",
+    "excerpt": "c++融合",
+    "tags": [],
+    "markdown": "articles/test/c++图像融合.md",
     "category": {
       "slug": "test",
       "name": "test"
@@ -69,198 +945,6 @@
     "category": {
       "slug": "test",
       "name": "test"
-    }
-  },
-  {
-    "slug": "c-图像融合",
-    "title": "c++图像融合",
-    "date": "2026-04-02",
-    "excerpt": "c++融合",
-    "tags": [],
-    "markdown": "articles/test/c++图像融合.md",
-    "category": {
-      "slug": "test",
-      "name": "test"
-    }
-  },
-  {
-    "slug": "yolo-training-debug-checklist",
-    "title": "YOLO 项目训练排错清单",
-    "date": "2026-04-01",
-    "excerpt": "YOLO 项目训练失败时，很多时候并不是模型结构本身的问题，而是数据和配置链条里某个环节出了偏差。",
-    "tags": [],
-    "markdown": "articles/algorithm/yolo-training-debug-checklist.md",
-    "category": {
-      "slug": "algorithm",
-      "name": "算法"
-    }
-  },
-  {
-    "slug": "x-anylabeling-workflow",
-    "title": "X-AnyLabeling 的批量标注流程",
-    "date": "2026-04-01",
-    "excerpt": "标注工具真正影响效率的，往往不是单张图怎么标，而是批量协作时如何减少重复劳动。",
-    "tags": [],
-    "markdown": "articles/tools/x-anylabeling-workflow.md",
-    "category": {
-      "slug": "tools",
-      "name": "其他工具"
-    }
-  },
-  {
-    "slug": "value-of-daily-writing",
-    "title": "长期记录的价值",
-    "date": "2026-04-01",
-    "excerpt": "很多内容当下看起来很碎，但只要持续写下来，过一段时间回头看，就会慢慢形成自己的判断轨迹。",
-    "tags": [],
-    "markdown": "articles/daily/value-of-daily-writing.md",
-    "category": {
-      "slug": "daily",
-      "name": "日常"
-    }
-  },
-  {
-    "slug": "triton-rollout-checklist",
-    "title": "Triton 上线检查清单",
-    "date": "2026-04-01",
-    "excerpt": "模型能在本地跑通，并不等于已经准备好上线。真正到服务阶段时，输入输出协议、显存水位和报警规则都要一起考虑。",
-    "tags": [],
-    "markdown": "articles/deploy/triton-rollout-checklist.md",
-    "category": {
-      "slug": "deploy",
-      "name": "模型部署"
-    }
-  },
-  {
-    "slug": "transformer-paper-notes",
-    "title": "Transformer 基础结构重读",
-    "date": "2026-04-01",
-    "excerpt": "重新翻 Transformer 论文时，最容易忽略的不是公式本身，而是它为什么要这样组织信息流。",
-    "tags": [],
-    "markdown": "articles/paper/transformer-paper-notes.md",
-    "category": {
-      "slug": "paper",
-      "name": "论文"
-    }
-  },
-  {
-    "slug": "tensorrt-intro",
-    "title": "TensorRT 简介",
-    "date": "2026-04-01",
-    "excerpt": "TensorRT 是 NVIDIA 面向推理场景提供的高性能优化框架，适合把训练完成的模型进一步压缩、编译并部署到 GPU 环境中。",
-    "tags": [],
-    "markdown": "articles/deploy/tensorrt-intro.md",
-    "category": {
-      "slug": "deploy",
-      "name": "模型部署"
-    }
-  },
-  {
-    "slug": "robot-calibration-notes",
-    "title": "机器人底盘定位与标定笔记",
-    "date": "2026-04-01",
-    "excerpt": "机器人项目里，定位是否稳定往往不是单一算法的问题，而是传感器之间的时空关系没有校准好。",
-    "tags": [],
-    "markdown": "articles/robot/robot-calibration-notes.md",
-    "category": {
-      "slug": "robot",
-      "name": "机器人"
-    }
-  },
-  {
-    "slug": "rag-pipeline-key-points",
-    "title": "RAG 检索链路的几个关键点",
-    "date": "2026-04-01",
-    "excerpt": "RAG 做得是否稳定，通常不只看模型参数，而是看切片、召回、重排和上下文拼接是不是一起协调。",
-    "tags": [],
-    "markdown": "articles/llm/rag-pipeline-key-points.md",
-    "category": {
-      "slug": "llm",
-      "name": "大模型"
-    }
-  },
-  {
-    "slug": "quantization-guide",
-    "title": "量化技术详解",
-    "date": "2026-04-01",
-    "excerpt": "量化的核心思路，是用更低精度的数值近似表示权重和激活，从而减少存储成本并提升推理效率。",
-    "tags": [],
-    "markdown": "articles/deploy/quantization-guide.md",
-    "category": {
-      "slug": "deploy",
-      "name": "模型部署"
-    }
-  },
-  {
-    "slug": "pyqt-tooling-setup",
-    "title": "PyQt 工具界面的快速搭建",
-    "date": "2026-04-01",
-    "excerpt": "内部工具的重点通常不是界面有多炫，而是能不能让同事稳定地把任务跑起来。",
-    "tags": [],
-    "markdown": "articles/python/pyqt-tooling-setup.md",
-    "category": {
-      "slug": "python",
-      "name": "Python"
-    }
-  },
-  {
-    "slug": "index-investing-rhythm-notes",
-    "title": "指数投资里的仓位与节奏",
-    "date": "2026-04-01",
-    "excerpt": "投资里真正难的，往往不是知道什么是长期主义，而是在波动里还能不能按自己的节奏执行。",
-    "tags": [],
-    "markdown": "articles/invest/index-investing-rhythm-notes.md",
-    "category": {
-      "slug": "invest",
-      "name": "投资"
-    }
-  },
-  {
-    "slug": "docker-dev-environment-checklist",
-    "title": "Docker 开发环境初始化备忘",
-    "date": "2026-04-01",
-    "excerpt": "开发环境如果每个人都手工配一遍，很容易出现环境漂移。用 Docker 统一起来会轻松很多。",
-    "tags": [],
-    "markdown": "articles/dev-env/docker-dev-environment-checklist.md",
-    "category": {
-      "slug": "dev-env",
-      "name": "开发环境"
-    }
-  },
-  {
-    "slug": "cache-friendly-structs",
-    "title": "Cache Friendly 的结构体设计",
-    "date": "2026-04-01",
-    "excerpt": "很多性能问题并不是算法复杂度太高，而是访问模式和缓存层级不匹配。结构体字段顺序、数组组织方式，都会直接影响命中率。",
-    "tags": [],
-    "markdown": "articles/cpp/cache-friendly-structs.md",
-    "category": {
-      "slug": "cpp",
-      "name": "C++"
-    }
-  },
-  {
-    "slug": "async-load-balancing-notes",
-    "title": "异步任务与负载均衡的配合",
-    "date": "2026-04-01",
-    "excerpt": "负载均衡只解决请求怎么分配，真正要把链路做稳，还得把异步任务、超时和背压一起考虑。",
-    "tags": [],
-    "markdown": "articles/software-engineering/async-load-balancing-notes.md",
-    "category": {
-      "slug": "software-engineering",
-      "name": "软件工程"
-    }
-  },
-  {
-    "slug": "3d-printing-beginner-notes",
-    "title": "3D 打印入门时容易踩的坑",
-    "date": "2026-04-01",
-    "excerpt": "刚开始接触 3D 打印时，最容易把问题都归咎于机器，其实很多时候是材料和参数没对上。",
-    "tags": [],
-    "markdown": "articles/misc/3d-printing-beginner-notes.md",
-    "category": {
-      "slug": "misc",
-      "name": "其他"
     }
   }
 ]

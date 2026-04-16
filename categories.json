@@ -24,12 +24,6 @@
     "icon": "🤖"
   },
   {
-    "slug": "robot",
-    "name": "机器人",
-    "description": "机器人算法、硬件与系统集成笔记。",
-    "icon": "🦾"
-  },
-  {
     "slug": "cpp",
     "name": "C++",
     "description": "语法、CMake、编译与工程实践问题记录。",
@@ -70,12 +64,6 @@
     "name": "投资",
     "description": "投资学习与复盘相关笔记。",
     "icon": "📈"
-  },
-  {
-    "slug": "daily",
-    "name": "日常",
-    "description": "生活与感想的长期记录。",
-    "icon": "☁"
   },
   {
     "slug": "test",
