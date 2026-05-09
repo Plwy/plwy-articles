@@ -5,6 +5,7 @@
     "date": "2026-04-16",
     "excerpt": "音频文件有多种格式，不同的后缀代表了不同的编码方式、压缩算法和用途。以下是常见的音频文件后缀及其区别：",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/音频相关.md",
     "category": {
       "slug": "algorithm",
@@ -17,6 +18,7 @@
     "date": "2026-04-16",
     "excerpt": "| 用户 | 环境变量配置文件 | | ---------- | -------------------------------------------- | | 所有用户 | ●/etc/profile ●/etc/bashrc ●...",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/配置环境变量.md",
     "category": {
       "slug": "dev-env",
@@ -29,6 +31,7 @@
     "date": "2026-04-16",
     "excerpt": "网站：https://wayback.archive-it.org/org-652/20231112205116/https:/detrac-db.rit.albany.edu/",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/车辆检测数据集.md",
     "category": {
       "slug": "algorithm",
@@ -41,6 +44,7 @@
     "date": "2026-04-16",
     "excerpt": "我用一个\"外卖平台\"的类比，帮你理解这三个核心概念，然后给出技术实现。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/software-engineering/负载监控-负载均衡-服务发现.md",
     "category": {
       "slug": "software-engineering",
@@ -53,6 +57,7 @@
     "date": "2026-04-16",
     "excerpt": "[PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech) 涵盖语音识别（语音转文字）， 语音翻译（中英），文本转语音（中英），声音克隆，语音分类，标点符号恢复，生成虚拟人声等",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/语音相关项目.md",
     "category": {
       "slug": "algorithm",
@@ -65,6 +70,7 @@
     "date": "2026-04-16",
     "excerpt": "以一个种子作为初始值，根据一定的算法得到随机数序列。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/训练中随机种子的问题.md",
     "category": {
       "slug": "algorithm",
@@ -77,6 +83,7 @@
     "date": "2026-04-16",
     "excerpt": "| 格式 | 数据内容 | 是否插值 | 数据量（示例2M像素） | 适用场景 | | ---- | --------------------- | -------- | --------------------------- | -...",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/视频流_图像相关基础.md",
     "category": {
       "slug": "algorithm",
@@ -89,6 +96,7 @@
     "date": "2026-04-16",
     "excerpt": "**(IEEE2020)DSNet: A Flexible Detect-to-Summarize Network for Video Summarization**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/视频摘要DSNet_run_note.md",
     "category": {
       "slug": "algorithm",
@@ -101,6 +109,7 @@
     "date": "2026-04-16",
     "excerpt": "(**CVPR2024)CSTA: CNN-based Spatiotemporal Attention for Video Summarization**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/视频摘要CSTA_run_note.md",
     "category": {
       "slug": "algorithm",
@@ -113,6 +122,7 @@
     "date": "2026-04-16",
     "excerpt": "将设备使用网线和本地电脑直连",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/获取设备IP地址.md",
     "category": {
       "slug": "dev-env",
@@ -125,6 +135,7 @@
     "date": "2026-04-16",
     "excerpt": "n次安装。最后一次总结！",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/英伟达驱动安装.md",
     "category": {
       "slug": "dev-env",
@@ -137,6 +148,7 @@
     "date": "2026-04-16",
     "excerpt": "http服务的特征",
     "tags": [],
+    "featured": false,
     "markdown": "articles/software-engineering/网络及web服务相关.md",
     "category": {
       "slug": "software-engineering",
@@ -149,6 +161,7 @@
     "date": "2026-04-16",
     "excerpt": "代码编译成可执行程序的过程，主要分为:预编译(Prepressing)->编译(Compilation)->汇编(Assembly)->链接(Linking)",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/编译问题和库问题.md",
     "category": {
       "slug": "cpp",
@@ -161,6 +174,7 @@
     "date": "2026-04-16",
     "excerpt": "模型训练过程中CPU占用高是由于计算密度过大、数据加载缓慢、通信开销大等因素",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/模型推理CPU占用过高问题.md",
     "category": {
       "slug": "deploy",
@@ -173,6 +187,7 @@
     "date": "2026-04-16",
     "excerpt": "查看当前操作系统",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/查看电脑配置详情命令.md",
     "category": {
       "slug": "dev-env",
@@ -185,6 +200,7 @@
     "date": "2026-04-16",
     "excerpt": "[国家智慧教育公共服务平台](https://www.smartedu.cn/)",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/教育大模型调研.md",
     "category": {
       "slug": "llm",
@@ -197,6 +213,7 @@
     "date": "2026-04-16",
     "excerpt": "操作系统相关知识回顾",
     "tags": [],
+    "featured": false,
     "markdown": "articles/software-engineering/操作系统相关.md",
     "category": {
       "slug": "software-engineering",
@@ -209,6 +226,7 @@
     "date": "2026-04-16",
     "excerpt": "投资相关问题",
     "tags": [],
+    "featured": false,
     "markdown": "articles/invest/投资概念.md",
     "category": {
       "slug": "invest",
@@ -221,6 +239,7 @@
     "date": "2026-04-16",
     "excerpt": "**什么是异步编程**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/software-engineering/异步编程.md",
     "category": {
       "slug": "software-engineering",
@@ -233,6 +252,7 @@
     "date": "2026-04-16",
     "excerpt": "github 国内镜像： hub.yzuu.cf/ hub.nuaa.cf/ hub.fgit.ml/ help.kgithub.com github.com.cnpmjs.org/",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/常用镜像和命令.md",
     "category": {
       "slug": "dev-env",
@@ -245,6 +265,7 @@
     "date": "2026-04-16",
     "excerpt": "以[Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)模型的为例",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/大模型评价数据集.md",
     "category": {
       "slug": "llm",
@@ -257,6 +278,7 @@
     "date": "2026-04-16",
     "excerpt": "​ 汇编指令是机器码的人类助记符，可以人自己直接编写，gcc编译器在编译时中间也会生成汇编指令`.s`文件。汇编指令通过汇编器将其转化为机器指令。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/关于程序运行的理解.md",
     "category": {
       "slug": "cpp",
@@ -269,6 +291,7 @@
     "date": "2026-04-16",
     "excerpt": "公开数据集获取",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/公开数据集获取.md",
     "category": {
       "slug": "algorithm",
@@ -280,7 +303,12 @@
     "title": "yolov8相关",
     "date": "2026-04-16",
     "excerpt": "Ultralytics YOLO 官方文档[这里](https://docs.ultralytics.com/tasks/detect/#models) 包含了多种任务的包括python和CLI的使用。",
-    "tags": [],
+    "tags": [
+      "YOLO",
+      "目标检测",
+      "工程实践"
+    ],
+    "featured": true,
     "markdown": "articles/algorithm/yolov8相关.md",
     "category": {
       "slug": "algorithm",
@@ -293,6 +321,7 @@
     "date": "2026-04-16",
     "excerpt": "conda activate xlabel cd X-AnyLabeling python anylabeling/app.py",
     "tags": [],
+    "featured": false,
     "markdown": "articles/tools/X-anylabeling使用.md",
     "category": {
       "slug": "tools",
@@ -305,6 +334,7 @@
     "date": "2026-04-16",
     "excerpt": "主要是在.vscode下配置两个文件，launch.json和task.json",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/VScode调试配置.md",
     "category": {
       "slug": "cpp",
@@ -317,6 +347,7 @@
     "date": "2026-04-16",
     "excerpt": "sudo apt install valgrind",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/valgrind使用及调试信息分析.md",
     "category": {
       "slug": "cpp",
@@ -329,6 +360,7 @@
     "date": "2026-04-16",
     "excerpt": "**下载安装**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/umbundu4.04安装向日葵问题.md",
     "category": {
       "slug": "dev-env",
@@ -341,6 +373,7 @@
     "date": "2026-04-16",
     "excerpt": "本地电脑存在多个python版本。需要python3.10以上版本。对python进行更新。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/ubuntu上更新python.md",
     "category": {
       "slug": "dev-env",
@@ -353,6 +386,7 @@
     "date": "2026-04-16",
     "excerpt": "list:",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/ubuntu24.04装机note_20250618.md",
     "category": {
       "slug": "dev-env",
@@ -365,6 +399,7 @@
     "date": "2026-04-16",
     "excerpt": "需要在本地或者局域网内搭建一个轻量的代码托管平台。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/tools/forgejo代码管理平台的搭建.md",
     "category": {
       "slug": "tools",
@@ -377,6 +412,7 @@
     "date": "2026-04-16",
     "excerpt": "TensorRT是nvidia的推理加速库，只能在nvdia的gpu上用！Intel cpu请使用openvino，amd gpu请使用opencl和ROCm。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/tensorrt性能优化.md",
     "category": {
       "slug": "deploy",
@@ -388,7 +424,12 @@
     "title": "tensorrt安装",
     "date": "2026-04-16",
     "excerpt": "tensorrt 安装",
-    "tags": [],
+    "tags": [
+      "TensorRT",
+      "部署",
+      "NVIDIA"
+    ],
+    "featured": true,
     "markdown": "articles/deploy/tensorrt安装.md",
     "category": {
       "slug": "deploy",
@@ -401,6 +442,7 @@
     "date": "2026-04-16",
     "excerpt": "[squid官网链接](https://www.squid-cache.org/)",
     "tags": [],
+    "featured": false,
     "markdown": "articles/tools/squid代理上网.md",
     "category": {
       "slug": "tools",
@@ -413,6 +455,7 @@
     "date": "2026-04-16",
     "excerpt": "“segmentation fault”错误通常是由于以下几种情况导致的：",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/Segmentation fault.md",
     "category": {
       "slug": "cpp",
@@ -425,6 +468,7 @@
     "date": "2026-04-16",
     "excerpt": "流协议就是在两个通信系统之间传输多媒体文件的一套规则，它定义了视频文件将如何分解为小数据包以及它们在互联网上传输的顺序，RTMP 与 RTSP 是比较常见的流媒体协议。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/tools/rtsp和rtmp流媒体服务器搭建和视频推流.md",
     "category": {
       "slug": "tools",
@@ -437,6 +481,7 @@
     "date": "2026-04-16",
     "excerpt": "rk 4卡板环境安装",
     "tags": [],
+    "featured": false,
     "markdown": "articles/dev-env/rk上python环境安装.md",
     "category": {
       "slug": "dev-env",
@@ -449,6 +494,7 @@
     "date": "2026-04-16",
     "excerpt": "RESTful API 设计是一种基于 **REST（Representational State Transfer，表述性状态转移）** 架构风格来构建 Web API 的方法。它的核心思想是把服务器上的资源（如用户、订单、文章等）...",
     "tags": [],
+    "featured": false,
     "markdown": "articles/software-engineering/RestfulAPI是什么.md",
     "category": {
       "slug": "software-engineering",
@@ -461,6 +507,7 @@
     "date": "2026-04-16",
     "excerpt": "**real-esrgan运行环境问题：**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/real-esrgan运行.md",
     "category": {
       "slug": "algorithm",
@@ -473,6 +520,7 @@
     "date": "2026-04-16",
     "excerpt": "code:https://github.com/HumanMLLM/R1-Omni",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/R1-Omni_note.md",
     "category": {
       "slug": "llm",
@@ -485,6 +533,7 @@
     "date": "2026-04-16",
     "excerpt": "| 目的 | 典型命令 | 备注 | | ---------------------- | ------------------ | --------------------------------------------------...",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/Python的包安装相关问题.md",
     "category": {
       "slug": "python",
@@ -497,6 +546,7 @@
     "date": "2026-04-16",
     "excerpt": "**GIL是什么？**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python的GIL和多线程问题.md",
     "category": {
       "slug": "python",
@@ -509,6 +559,7 @@
     "date": "2026-04-16",
     "excerpt": "import torch from myproject.models import some_model from myproject.models.some_model import SomeClass",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python模块的延迟加载.md",
     "category": {
       "slug": "python",
@@ -521,6 +572,7 @@
     "date": "2026-04-16",
     "excerpt": "什么是WSGI，ASGI",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python服务相关.md",
     "category": {
       "slug": "python",
@@ -533,6 +585,7 @@
     "date": "2026-04-16",
     "excerpt": "关于服务中进行**懒加载实现高效服用**， 在第一次请求加载模型，后面的请求复用加载的模型。不用的服务启动时显示进行模型初始化。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python服务懒加载模型复用.md",
     "category": {
       "slug": "python",
@@ -545,6 +598,7 @@
     "date": "2026-04-16",
     "excerpt": "来自：`modelscope/utils/logger.py`",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python日志问题.md",
     "category": {
       "slug": "python",
@@ -557,6 +611,7 @@
     "date": "2026-04-16",
     "excerpt": "对常用的文件处理时用到的库和方法进行总结。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python文件处理库_os_pathlib_glob_shutil.md",
     "category": {
       "slug": "python",
@@ -569,6 +624,7 @@
     "date": "2026-04-16",
     "excerpt": "多GPU可以使用 `nn.DataParallel` 打包模型，再使用`model.to(device)` 把模型传送到多块GPU中进行运算。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/python多卡并行和DataParallel.md",
     "category": {
       "slug": "python",
@@ -581,6 +637,7 @@
     "date": "2026-04-16",
     "excerpt": "pip install pytest",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/pytest单元测试.md",
     "category": {
       "slug": "python",
@@ -593,6 +650,7 @@
     "date": "2026-04-16",
     "excerpt": "**git提取需要加密的代码**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/python/Pyarmor 加密.md",
     "category": {
       "slug": "python",
@@ -605,6 +663,7 @@
     "date": "2026-04-16",
     "excerpt": "1.只是使用简单的函数，测一下opencv的使用。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/opencv问题总结.md",
     "category": {
       "slug": "algorithm",
@@ -617,6 +676,7 @@
     "date": "2026-04-16",
     "excerpt": "ref:https://blog.csdn.net/weixin_49114503/article/details/134266408",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/nohup命令.md",
     "category": {
       "slug": "deploy",
@@ -629,6 +689,7 @@
     "date": "2026-04-16",
     "excerpt": "2024.10.08",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/mmrotate_run_note.md",
     "category": {
       "slug": "algorithm",
@@ -640,7 +701,12 @@
     "title": "LLM note",
     "date": "2026-04-16",
     "excerpt": "有哪些常见的大模型？这些大模型的推出时间线，公司背景，特点（架构，参数）。大模型工作原理，能力范围。如何训练。如何搭建自己的chat服务。",
-    "tags": [],
+    "tags": [
+      "LLM",
+      "基础知识",
+      "模型综述"
+    ],
+    "featured": true,
     "markdown": "articles/llm/LLM_note.md",
     "category": {
       "slug": "llm",
@@ -653,6 +719,7 @@
     "date": "2026-04-16",
     "excerpt": "**调用jni接口的release后，java程序仍占用了显存的问题。**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/jni接口资源释放问题.md",
     "category": {
       "slug": "deploy",
@@ -665,6 +732,7 @@
     "date": "2026-04-16",
     "excerpt": "**Xcode 版本， macOS版本， 支持的Swift版本， 以及支持的macOS，IOS, watchOS, tvOS, visionOS的版本对应关系：**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/IOS相关.md",
     "category": {
       "slug": "cpp",
@@ -677,6 +745,7 @@
     "date": "2026-04-16",
     "excerpt": "一个展示demo包含，音视频文本输入，和按钮。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/gradio使用.md",
     "category": {
       "slug": "deploy",
@@ -689,6 +758,7 @@
     "date": "2026-04-16",
     "excerpt": "入门和理解",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/go_note.md",
     "category": {
       "slug": "cpp",
@@ -701,6 +771,7 @@
     "date": "2026-04-16",
     "excerpt": "进入GDB调试模式",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/gdb调试.md",
     "category": {
       "slug": "cpp",
@@ -713,6 +784,7 @@
     "date": "2026-04-16",
     "excerpt": "一个简单的flask服务过程的理解",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/flask服务封装.md",
     "category": {
       "slug": "deploy",
@@ -725,6 +797,7 @@
     "date": "2026-04-16",
     "excerpt": "> 注意： > > `lifespan` 中的 `yield` **不是为了“保持模型存活”** 。`yield` 是为了让 FastAPI 知道：“启动任务完成了，现在可以开始处理请求了”。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/fastapi中的lifespan.md",
     "category": {
       "slug": "deploy",
@@ -737,6 +810,7 @@
     "date": "2026-04-16",
     "excerpt": "ref:https://blog.csdn.net/KazooTTT/article/details/134968671",
     "tags": [],
+    "featured": false,
     "markdown": "articles/deploy/docker镜像选择.md",
     "category": {
       "slug": "deploy",
@@ -749,6 +823,7 @@
     "date": "2026-04-16",
     "excerpt": "**训练资源消耗** DeepSeek-V3 使用 H800 GPU 集群进行训练，总耗时约 2788K GPU 小时，整个训练过程的成本不超过 600 万美元。为了进一步降低成本，DeepSeek 利用了稀疏计算设计、改进的注意力机...",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/DeepSeek-R1相关.md",
     "category": {
       "slug": "llm",
@@ -761,6 +836,7 @@
     "date": "2026-04-16",
     "excerpt": "仅仅有简单c++基础的，想看懂稍复杂c++项目有几个点理解了很关键。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/cpp_issue.md",
     "category": {
       "slug": "cpp",
@@ -773,6 +849,7 @@
     "date": "2026-04-16",
     "excerpt": "**如何捕捉光信号，光信号如何转为电信号，电信号转模拟信号，转数字信号的过程**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/algorithm/CMOS图像传感器和信号转换.md",
     "category": {
       "slug": "algorithm",
@@ -785,6 +862,7 @@
     "date": "2026-04-16",
     "excerpt": "ref:https://zhuanlan.zhihu.com/p/661772113",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/CLIP_note.md",
     "category": {
       "slug": "llm",
@@ -797,6 +875,7 @@
     "date": "2026-04-16",
     "excerpt": "本人当前使用的c++工具链",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/C++相关工具.md",
     "category": {
       "slug": "cpp",
@@ -809,6 +888,7 @@
     "date": "2026-04-16",
     "excerpt": "指针和内存的问题",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/c++指针和内存相关.md",
     "category": {
       "slug": "cpp",
@@ -821,6 +901,7 @@
     "date": "2026-04-16",
     "excerpt": "c++融合",
     "tags": [],
+    "featured": false,
     "markdown": "articles/cpp/c++图像融合.md",
     "category": {
       "slug": "cpp",
@@ -833,6 +914,7 @@
     "date": "2026-04-16",
     "excerpt": "对于AI系统的安全，我们主要讨论AI系统的机密性和完整性。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/paper/ai安全.md",
     "category": {
       "slug": "paper",
@@ -845,6 +927,7 @@
     "date": "2026-04-16",
     "excerpt": "**项目代码结构解析**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/llm/agent需求.md",
     "category": {
       "slug": "llm",
@@ -857,6 +940,7 @@
     "date": "2026-04-16",
     "excerpt": "**了解3D打印**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/misc/3D打印机了解.md",
     "category": {
       "slug": "misc",
@@ -869,6 +953,7 @@
     "date": "2026-04-02",
     "excerpt": "**git提取需要加密的代码**",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/Pyarmor 加密.md",
     "category": {
       "slug": "test",
@@ -881,6 +966,7 @@
     "date": "2026-04-02",
     "excerpt": "有哪些常见的大模型？这些大模型的推出时间线，公司背景，特点（架构，参数）。大模型工作原理，能力范围。如何训练。如何搭建自己的chat服务。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/LLM_note.md",
     "category": {
       "slug": "test",
@@ -893,6 +979,7 @@
     "date": "2026-04-02",
     "excerpt": "入门和理解",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/go_note.md",
     "category": {
       "slug": "test",
@@ -905,6 +992,7 @@
     "date": "2026-04-02",
     "excerpt": "c++融合",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/c++图像融合.md",
     "category": {
       "slug": "test",
@@ -917,6 +1005,7 @@
     "date": "2026-04-02",
     "excerpt": "需要在本地或者局域网内搭建一个轻量的代码托管平台。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/forgejo代码管理平台的搭建.md",
     "category": {
       "slug": "test",
@@ -929,6 +1018,7 @@
     "date": "2026-04-02",
     "excerpt": "原始内容链接:",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/docker_use.md",
     "category": {
       "slug": "test",
@@ -941,6 +1031,7 @@
     "date": "2026-04-02",
     "excerpt": "包含命令及对应参数解释，以及使用过的实际命令例子。",
     "tags": [],
+    "featured": false,
     "markdown": "articles/test/docker_note.md",
     "category": {
       "slug": "test",

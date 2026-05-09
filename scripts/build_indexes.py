@@ -5,6 +5,7 @@ import re
 import subprocess
 from datetime import date
 from pathlib import Path
+from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +32,35 @@ DEFAULT_CATEGORY_META = {
 
 def normalize_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
+
+
+def read_sidecar_meta(path: Path) -> dict[str, Any]:
+    meta_path = path.with_suffix(".meta.json")
+    if not meta_path.exists():
+        return {}
+
+    try:
+        payload = json.loads(meta_path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    return payload if isinstance(payload, dict) else {}
+
+
+def normalize_tags(value: Any) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    tags: list[str] = []
+    seen: set[str] = set()
+    for item in value:
+        if not isinstance(item, str):
+            continue
+        tag = normalize_text(item)
+        if not tag or tag in seen:
+            continue
+        seen.add(tag)
+        tags.append(tag)
+    return tags
 
 
 def title_from_markdown(path: Path, text: str) -> str:
@@ -120,16 +150,20 @@ def build_posts() -> list[dict]:
 
         category_slug = relative.parts[0]
         text = path.read_text(encoding="utf-8")
-        title = title_from_markdown(path, text)
+        meta = read_sidecar_meta(path)
+        title = normalize_text(str(meta.get("title", ""))) or title_from_markdown(path, text)
         category_meta = DEFAULT_CATEGORY_META.get(category_slug, {})
+        tags = normalize_tags(meta.get("tags"))
+        featured = bool(meta.get("featured"))
 
         posts.append(
             {
                 "slug": make_slug(path, used_slugs),
                 "title": title,
                 "date": git_date(path),
-                "excerpt": excerpt_from_markdown(title, text),
-                "tags": [],
+                "excerpt": normalize_text(str(meta.get("excerpt", ""))) or excerpt_from_markdown(title, text),
+                "tags": tags,
+                "featured": featured,
                 "markdown": path.relative_to(ROOT).as_posix(),
                 "category": {
                     "slug": category_slug,
