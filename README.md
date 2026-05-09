@@ -35,7 +35,7 @@ python scripts/build_indexes.py
 
 ## 可选文章元数据
 
-如果某篇文章需要“精品文章”标记或标签，不改 Markdown 也可以。
+如果某篇文章需要“置顶文章”标记或标签，不改 Markdown 也可以。
 
 只要在文章旁边放一个同名 sidecar 文件：
 
@@ -55,7 +55,7 @@ articles/llm/LLM_note.meta.json
 
 支持字段：
 
-- `featured`: `true` 时会进入首页“精品文章”
+- `featured`: `true` 时会进入首页“置顶文章”
 - `tags`: 标签数组
 - `title`: 可选标题覆盖
 - `excerpt`: 可选摘要覆盖
